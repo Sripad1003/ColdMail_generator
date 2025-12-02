@@ -1,5 +1,5 @@
 pandas
-chromadb
+chromadb==0.4.15
 langchain
 langchain-groq
 langchain-community
@@ -8,3 +8,6 @@ python-dotenv
 beautifulsoup4
 lxml
 aiohttp
+BeautifulSoup
+bs4
+playwright
