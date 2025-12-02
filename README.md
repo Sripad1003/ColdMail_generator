@@ -5,7 +5,7 @@ Cold email generator for services company using groq, langchain and streamlit. I
 
 - Nike needs a Principal Software Engineer and is spending time and resources in the hiring process, on boarding, training etc
 - CRAFT — Code, Run, Automate, Fix, Test (Full-service software engineering, delivery & SRE) is Software Development company can provide a dedicated software development engineer to Nike. So, a Representative from CRAFT is going to reach out to Nike via a cold email.
-CRAFT Website: https://craft-solutions.vercel.app/ 
+
 
 ![img.png](imgs/img.png)
 
@@ -26,8 +26,8 @@ CRAFT Website: https://craft-solutions.vercel.app/
    streamlit run app/main.py
    ```
    
-
-Copyright (C) Codebasics Inc. All rights reserved.
-
+-CRAFT Website: https://craft-solutions.vercel.app/ 
+Copyright (C) CRAFT Inc. All rights reserved.
+Credits: Codebasics.
 **Additional Terms:**
 This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
