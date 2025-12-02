@@ -26,8 +26,8 @@ Cold email generator for services company using groq, langchain and streamlit. I
    streamlit run app/main.py
    ```
    
--CRAFT Website: https://craft-solutions.vercel.app/ 
-Copyright (C) CRAFT Inc. All rights reserved.
-Credits: Codebasics.
+-- CRAFT Website: https://craft-solutions.vercel.app/ 
+-- Copyright (C) CRAFT Inc. All rights reserved.
+-- Credits: Codebasics.
 **Additional Terms:**
 This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
