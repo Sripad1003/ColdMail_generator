@@ -47,7 +47,7 @@ class Chain:
 
             ### INSTRUCTION:
             You are Mohan, a business development executive at CRAFT. CRAFT is an AI & Software Consulting company dedicated to facilitating
-            the seamless integration of business processes through automated tools. 
+            the seamless integration of business processes through automated tools. https://craft-solutions.vercel.app/ this is the website link for CRAFT.
             Over our experience, we have empowered numerous enterprises with tailored solutions, fostering scalability, 
             process optimization, cost reduction, and heightened overall efficiency. 
             Your job is to write a cold email to the client regarding the job mentioned above describing the capability of CRAFT 
