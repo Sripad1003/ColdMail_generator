@@ -24,54 +24,54 @@ class Chain:
         # STRICT EXTRACTION PROMPT
         # ---------------------------
         self.extract_prompt = PromptTemplate.from_template("""
-Extract job postings from the text below.
+            Extract job postings from the text below.
 
-### TEXT:
-{page_data}
+            ### TEXT:
+            {page_data}
 
-### RETURN STRICT JSON ARRAY:
-Each item MUST have:
-- role (string)
-- experience (string)
-- skills (list of strings)
-- description (string)
+            ### RETURN STRICT JSON ARRAY:
+            Each item MUST have:
+            - role (string)
+            - experience (string)
+            - skills (list of strings)
+            - description (string)
 
-Output ONLY JSON. No comments.
-""")
+            Output ONLY JSON. No comments.
+            """)
 
         self.email_prompt = PromptTemplate.from_template("""
-You are Mohan, Business Development Executive at CRAFT.
+        You are Mohan, Business Development Executive at CRAFT.
 
-### IMPORTANT CONTEXT:
-- The job description below belongs to the COMPANY we are emailing.
-- We (CRAFT) are NOT applying for the job.
-- We are a software & AI consulting company offering to BUILD the solution,
-  AUTOMATE the process, or PROVIDE development support for the role they are hiring for.
+        ### IMPORTANT CONTEXT:
+        - The job description below belongs to the COMPANY we are emailing.
+        - We (CRAFT) are NOT applying for the job.
+        - We are a software & AI consulting company offering to BUILD the solution,
+        AUTOMATE the process, or PROVIDE development support for the role they are hiring for.
 
-### JOB DESCRIPTION POSTED BY THE COMPANY:
-{job_description}
+        ### JOB DESCRIPTION POSTED BY THE COMPANY:
+        {job_description}
 
-### YOUR GOAL:
-Write a professional cold email offering **CRAFT’s services** to help the company
-fulfil their hiring requirement. Explain how CRAFT can:
+        ### YOUR GOAL:
+        Write a professional cold email offering **CRAFT’s services** to help the company
+        fulfil their hiring requirement. Explain how CRAFT can:
 
-- Build the software they need  
-- Provide dedicated developers  
-- Automate workflows  
-- Accelerate product delivery  
+        - Build the software they need  
+        - Provide dedicated developers  
+        - Automate workflows  
+        - Accelerate product delivery  
 
-Also include the most relevant portfolio links from the following:
-{link_list}
+        Also include the most relevant portfolio links from the following:
+        {link_list}
 
-### REQUIREMENTS:
-- Do NOT write like a job applicant.
-- Do NOT assume we are hiring the candidate.
-- Speak as a vendor offering services to the company.
-- Make it short, crisp and business-oriented.
-- No preamble. Just output the email.
+        ### REQUIREMENTS:
+        - Do NOT write like a job applicant.
+        - Do NOT assume we are hiring the candidate.
+        - Speak as a vendor offering services to the company.
+        - Make it short, crisp and business-oriented.
+        - No preamble. Just output the email.
 
-### EMAIL (NO PREAMBLE):
-""")
+        ### EMAIL (NO PREAMBLE):
+        """)
 
 
     # -------------------------------------------------------------

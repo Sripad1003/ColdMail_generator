@@ -116,7 +116,7 @@ def create_streamlit_app(llm, portfolio, clean_text):
 
             url_input = st.text_input(
                 "🔗 Enter Job URL:",
-                value="https://jobs.nike.com/job/R-33460",
+                value="Enter a job listing URL here",
                 placeholder="Paste job listing URL..."
             )
 
